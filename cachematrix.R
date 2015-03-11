@@ -1,9 +1,9 @@
-##  Matrix inversion is usually a costly computation and there may be some benefit to 
-##  caching the inverse of a matrix rather than compute it repeatedly. These functions 
-##  will use matrix object for caching and avoid expensive re-somutation
+## Matrix inversion is usually a costly computation and there may be some benefit to 
+## caching the inverse of a matrix rather than compute it repeatedly. These functions 
+## will use matrix object for caching and avoid expensive re-somutation
 
-##  This function creates a special "matrix" object that can cache its inverse.
-##  Creates a list containing a function to :- 
+## This function creates a special "matrix" object that can cache its inverse.
+## Creates a list containing a function to :- 
 ## - set the value of the matrix
 ## - get the value of the matrix
 ## - set the inverse value of the matrix
